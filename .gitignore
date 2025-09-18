@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment (IMPORTANT!)
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+chat_history.db
+
+# Hugging Face Cache (LARGE FILES - DON'T UPLOAD)
+.cache/
+~/.cache/huggingface/
+transformers_cache/
+torch_cache/
+
+# Model files (LARGE - DON'T UPLOAD)
+*.bin
+*.safetensors
+*.h5
+*.onnx
+pytorch_model.bin
+model.safetensors
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Weird numbered files (corrupted downloads)
+[0-9]*.[0-9]*.[0-9]*
+[0-9]*.[0-9]*
